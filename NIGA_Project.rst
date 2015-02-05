@@ -1,6 +1,6 @@
-###########
-GNI Project
-###########
+############
+NIGA Project
+############
 
 :Mòdul: M05
 :Professor:  Moisès Gómez
@@ -29,7 +29,7 @@ En aquest document es troben les diferents tasques relacionades amb el projecte 
 
 Es podrà trobar una copia del enuncia original, el diagrama de context la llista de snippets funcionals i el diagrama de classes.
 
-El projecte s'ha dut a terme pels integrants Raul Guerrero, Sandra Muñoz i Sergio Reinoso. 
+El projecte NIGA (Naves Industriales Gualda Alquileres) s'ha dut a terme pels integrants Raul Guerrero, Sandra Muñoz i Sergio Reinoso.
 
 S'han fet servir diferents eines per elaborar les diferents parts del projecte.
 
