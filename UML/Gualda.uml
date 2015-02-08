@@ -59,17 +59,32 @@
         diesPagament
         domiciliacio 
     }
+    class Rebuts{
+        data
+        importLloger
+        IVA
+        despeses
+        getImportTotal()
+    }
+    class Informe{
+        data
+        NIF_Arrendatari
+    }
     class Sistema{
         Nau[] llistaNaus;
         NauLogada[] llistaNausLlogades;
-        emetRebut()
-        repRebut()
-        elaboraInforme()
+        Rebut emetRebut()
+        repRebut(CSV)
+        Informe elaboraInforme()
         pujaIPC()
+        LlistatNaus emetLlistatNaus()
+        Nau[] consultaNau(dataInicial,teLloger,dataFinal)
     }
     NauLlogada --* Sistema
     Arrendatari --* Sistema
     Nau --* Sistema
+    Informe --* Sistema
+    Rebuts --* Sistema 
 
 
 @enduml
